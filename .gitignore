@@ -1,2 +1,4 @@
 dh/*
 server/db.sqlite3
+.idea/*
+*.sqlite3
