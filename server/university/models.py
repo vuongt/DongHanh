@@ -23,3 +23,5 @@ class University(models.Model):
         self.slug = slugify(self.name)
         super(University, self).save(*args, **kwargs)
 
+    class Meta:
+        verbose_name_plural = "Universities"

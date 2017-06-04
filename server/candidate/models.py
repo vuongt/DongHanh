@@ -17,9 +17,8 @@ class Candidate(models.Model):
 
     type = models.CharField(max_length=2, choices=TYPE_CHOICES, default='CS')
 
-    last_name = models.CharField('last_name', max_length=100, unique=False)
-    first_name = models.CharField('first_name', max_length=100, unique=False)
-    # True = Girl.
+    last_name = models.CharField('last name', max_length=100, unique=False)
+    first_name = models.CharField('first name', max_length=100, unique=False)
     sex = models.CharField(max_length=1, choices=SEX_CHOICES, null=True)
     date_of_birth = models.DateField(null=True)
     field_of_study = models.TextField(blank=True)

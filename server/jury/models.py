@@ -7,3 +7,6 @@ class Jury(models.Model):
     id = models.BigAutoField(primary_key=True)
     name = models.CharField('name', max_length=100)
     term = models.ForeignKey(Term, related_name="juries")
+
+    class Meta:
+        verbose_name_plural = "Juries"
