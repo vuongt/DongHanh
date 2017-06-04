@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<ul>
+    {% for u in universities %}
+    <li>{{u.name}}</li>
+    {% end for %}
+</ul>
+
+{% endblock %}
