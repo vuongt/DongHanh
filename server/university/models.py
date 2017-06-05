@@ -12,8 +12,8 @@ class University(models.Model):
     id = models.BigAutoField(primary_key=True)
 
     name = models.CharField('University Name', max_length=50, unique=True)
-    short_name = models.CharField('University short name', max_length=10, unique=True)
-    slug = models.SlugField(max_length=60, unique=True)
+    code = models.CharField('University short name', max_length=10, unique=True)
+    slug = models.SlugField(max_length=60, unique=True, blank=True)
     about = models.TextField(blank=True)
 
     created_on = models.DateTimeField('created_on', auto_now_add=True)
@@ -22,6 +22,9 @@ class University(models.Model):
     def save(self, *args, **kwargs):
         self.slug = slugify(self.name)
         super(University, self).save(*args, **kwargs)
+
+    def __str__(self):
+        return self.name
 
     class Meta:
         verbose_name_plural = "Universities"

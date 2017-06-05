@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Trường Đại học Bách khoa Hà Nội",
+    "code": "BKHN",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Khoa học tự nhiên, ĐHQG Hà Nội",
+    "code": "TNHN",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Xây dựng",
+    "code": "XD",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Giao thông vận tải cơ sở I (tại Hà Nội)",
+    "code": "GTVT1",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Công nghệ, ĐHQG Hà Nội",
+    "code": "CNHN",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Vinh",
+    "code": "VINH",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Bách khoa, ĐH Đà Nẵng",
+    "code": "BKDN",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Kinh tế, ĐH Đà Nẵng",
+    "code": "KTDN",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Sư phạm, ĐH Đà Nẵng",
+    "code": "SPDN",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Ngoại ngữ, ĐH Đà Nẵng",
+    "code": "SPDN",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Bách khoa, ĐHQG TP Hồ Chí Minh",
+    "code": "BKHCM",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Khoa học tự nhiên, ĐHQG TP Hồ Chí Minh",
+    "code": "TNHCM",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Kinh tế Luật, ĐHQG TP Hồ Chí Minh",
+    "code": "KTLHCM",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Giao thông vận tải cơ sở II (tại TP Hồ Chí Minh)",
+    "code": "GTVT2",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Đà Lạt",
+    "code": "DALAT",
+    "about": null
+  },
+  {
+    "name": "Trường Đại học Cần Thơ",
+    "code": "CTHO",
+    "about": null
+  },
+  {
+    "name": "Trường khác (ghi rõ trong thư xin học bổng)",
+    "code": "KHAC",
+    "about": null
+  }
+]
