@@ -1,0 +1,11 @@
+{%  extends "base.html" %}
+{% load static %}
+{% block content %}
+<h1>Universities list</h1>
+    <ul>
+    {% for u in object_list %}
+    <li><a href="{% url "university:update" u.pk %}">{{ u.name }}</a></li>
+    {% endfor %}
+  </ul>
+
+{% endblock %}
